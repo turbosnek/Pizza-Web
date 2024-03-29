@@ -1,12 +1,15 @@
 @media screen and (max-width: 1150px) {
 
+    /***** Photo Gallery *****/
     .photo-segment {
         margin-left: 10px;
         margin-right: 10px;
     }
 
+    /***** References *****/
     .col.span-1-of-3.one-reference {
-        width: 49%;
+        width: 48.5%;
+        margin-left: 10px;
     }
 
     .one-reference:nth-child(3) {
@@ -16,6 +19,7 @@
 
 @media only screen and (max-width: 750px) {
 
+    /***** Photo Gallery *****/
     .photo-segment .col {
         margin-left: 0;
     }
@@ -27,6 +31,7 @@
 
 @media only screen and (max-width: 685px) {
 
+    /***** References *****/
     .col.span-1-of-3.one-reference {
         width: 100%;
         margin-left: 10px;
