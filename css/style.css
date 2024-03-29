@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** Reusable *****/
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.heading-main h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.heading-main h2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    border-bottom: 2px solid #DC4F00;
+    margin: 20px auto;
+}
+
+/***** Header *****/
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/pizza-syr.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+#logo img {
+    width: 200px;
+    position: absolute;
+    top: 2%;
+}
+
+nav ul {
+    float: right;
+    margin-top: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: #FFFFFF;
+    font-size: 30px;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    transition: border-bottom 0.5s;
+    border-bottom: 2px solid #DC4F00;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 38.8%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text h1 {
+    color: #FFFFFF;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    word-spacing: 3.5px;
+}
+
+.btn {
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #DC4F00;
+    border-radius: 10px;
+    margin-top: 7px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background: #DC4F00;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    transition: background-color 0.5s;
+    background: #A93D00;
+    border: 1px solid #DC4F00;
+}
+
+.btn-empty:link,
+.btn-empty:visited {
+    margin-left: 5px;
+    background: transparent;
+}
+
+.btn-empty:hover,
+.btn-empty:active {
+    transition: background-color 0.5s;
+    background: #A93D00;
+    border: 1px solid #DC4F00;
+}
+
+/***** About us *****/
+.pizza-example img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000000;
+}
+
+/***** Our pizza *****/
+.pizza-info img {
+    width: 100%;
+    height: 270px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px #000000;
+}
+
+.text-pizza {
+    margin-bottom: 20px;
+}
+
+.text-pizza div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000000;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12px;
+    float: left;
+}
+
+.text-pizza p {
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+/***** References *****/
+.references {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/pizza-syr.jpg");
+    background-attachment: fixed;
+}
+
+.references h2 {
+    color: #FFFFFF;
+    padding-top: 40px;
+}
+
+.references h2:after {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.one-reference {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.one-reference p {
+    font-style: italic;
+}
+
+.photo-name {
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.photo-name p {
+    padding: 13px;
+    margin-left: 60px;
+    font-style: normal;
+}
+
+.photo-name img {
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+/***** Photo Gallery *****/
+.photo-segment li {
+    list-style-type: none;
+    overflow: hidden;
+    height: 300px;
+}
+
+.photo-segment img {
+    width: 100%;
+    height: 300px;
+    /*opacity: 0.5;*/
+    transform: scale(1.15);
+}
+
+/*
+.photo-segment img:hover {
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+}
+*/
+
+/***** Contact form *****/
+.contact-form {
+    max-width: 700px;
+    text-align: center;
+}
+
+.contact-form input {
+    width: 80%;
+    margin: 5px 0;
+    padding: 7px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.contact-form textarea {
+    width: 80%;
+    margin: 5px 0;
+    padding: 7px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial, serif;
+}
+
+input[type="submit"] {
+    background-color: #AA4309;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+input[type="submit"]:hover {
+    transition: background-color 0.5s;
+    background-color: #D67E4D;
+    color: #000000;
+    cursor: pointer;
+}
+
+/***** Footer *****/
+.footer-page {
+    background-color: #AA4309;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.social {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social p {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social p a:link,
+.social p a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.social p a:hover,
+.social p a:active {
+    color: #000000;
+}
+
+.footer-text {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
+/***** Stop Floating *****/
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
