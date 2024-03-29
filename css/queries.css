@@ -17,6 +17,31 @@
     }
 }
 
+@media only screen and (max-width: 860px) {
+
+    /***** Our Pizza *****/
+    .pizza-info .span-1-of-2 {
+        width:  98.5%
+    }
+
+    .pizza-info img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .text-pizza p {
+        padding-top: 13px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+
+    /***** Our Pizza *****/
+    .text-pizza p {
+        padding-top: 0;
+    }
+}
+
 @media only screen and (max-width: 750px) {
 
     /***** Photo Gallery *****/
