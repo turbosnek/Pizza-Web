@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1155px) {
-    
+
     .photo-segment {
         margin-left: 10px;
         margin-right: 10px;
@@ -14,5 +14,11 @@
 
     .photo-segment li {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .photo-segment li {
+        margin-top: 10px;
     }
 }
