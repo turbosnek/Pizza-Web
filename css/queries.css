@@ -15,6 +15,16 @@
     .one-reference:nth-child(3) {
         display: none;
     }
+
+    /***** About us *****/
+    .pizza-example img {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .pizza-example .span-1-of-2 {
+        width: 48.3%;
+    }
 }
 
 @media only screen and (max-width: 860px) {
@@ -51,6 +61,20 @@
 
     .photo-segment li {
         width: 100%;
+    }
+
+    /***** About Us *****/
+    .pizza-example .span-1-of-2 {
+        width: 96%;
+    }
+
+    .pizza-example .col {
+        margin-left: 0;
+    }
+
+    .pizza-example img {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 
