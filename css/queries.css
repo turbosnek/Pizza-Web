@@ -1,0 +1,18 @@
+@media only screen and (max-width: 1155px) {
+    
+    .photo-segment {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    .photo-segment .col {
+        margin-left: 0;
+    }
+
+    .photo-segment li {
+        width: 100%;
+    }
+}
