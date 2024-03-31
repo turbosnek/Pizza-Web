@@ -15,6 +15,11 @@
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/lightbox.min.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+    </script>
+    <script src="js/script.js"></script>
+
     <title>Domácí Pizza</title>
 </head>
 
@@ -26,11 +31,11 @@
             </div>
             <nav>
                 <ul>
-                    <li><a href="#">Jedna</a></li>
-                    <li><a href="#">Dva</a></li>
-                    <li><a href="#">Tři</a></li>
-                    <li><a href="#">Čtyři</a></li>
-                    <li><a href="#">Pět</a></li>
+                    <li><a href="#" class="jq--scroll-our-pizza">Naše pizza</a></li>
+                    <li><a href="#" class="jq--scroll-about-us">O naší pizze</a></li>
+                    <li><a href="#" class="jq--scroll-references">Reference</a></li>
+                    <li><a href="#" class="jq--scroll-photo-gallery">Fotogalerie</a></li>
+                    <li><a href="#" class="jq--scroll-contact">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,7 +48,7 @@
     </header>
 
     <main>
-        <section class="about-us row">
+        <section class="about-us row jq--our-pizza">
             <div class="heading-main">
                 <h2>Naše pizza</h2>
             </div>
@@ -58,7 +63,7 @@
             </div>
         </section>
 
-        <section class="our-pizza row">
+        <section class="our-pizza row jq--about-us">
             <div class="heading-main">
                 <h2>O naší pizze</h2>
             </div>
@@ -92,7 +97,7 @@
             </div>
         </section>
 
-        <section class="references">
+        <section class="references jq--references">
             <div class="heading-main">
                 <h2>Co o nás řekli naši zákazníci</h2>
             </div>
@@ -131,7 +136,7 @@
             </div>
         </section>
 
-        <section class="photo-gallery">
+        <section class="photo-gallery jq--photo-gallery">
             <div class="heading-main">
                 <h2>Co u nás můžete ochutnat</h2>
             </div>
@@ -154,7 +159,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="jq--contact">
             <div class="heading-main">
                 <h2>Zeptejte se nás na cokoli</h2>
             </div>
