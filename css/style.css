@@ -49,7 +49,9 @@ header {
 #logo img {
     width: 200px;
     position: absolute;
-    top: 10%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 nav ul {
