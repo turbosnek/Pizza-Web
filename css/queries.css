@@ -27,6 +27,41 @@
     }
 }
 
+@media only screen and (max-width: 1025px) {
+
+    nav ul li {
+        display: block;
+    }
+
+    .nav-background {
+        /*display: none;*/
+    }
+
+    .mobile-nav-back {
+        height: 190px;
+        position: fixed;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border-bottom: 2px solid #FFFFFF;
+        display: none;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        right: 2%;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul li a:hover {
+        border: none;
+    }
+}
+
 @media only screen and (max-width: 860px) {
 
     /***** Our Pizza *****/
